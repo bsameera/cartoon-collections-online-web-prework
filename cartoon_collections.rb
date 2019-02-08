@@ -8,8 +8,8 @@ end
 def summon_captain_planet(planeteer_calls)
   # Your code here
   planeteer_calls.map do |item|
-    item = item.split('')
-    item[0] = item[0].upcase
+    item.capitalize
+    item + '!'
   end 
 end
 
